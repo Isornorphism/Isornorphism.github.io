@@ -681,7 +681,7 @@ $sidebar-display: "sidebar-display";
     a {
       @extend %clickable-transition;
 
-      font-weight: 900;
+      font-weight: 700;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
       color: rgba(134, 133, 133, 99%);
@@ -689,7 +689,7 @@ $sidebar-display: "sidebar-display";
   }
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 85%;
     color: var(--sidebar-muted-color);
     line-height: 1.2rem;
     word-spacing: 1px;
