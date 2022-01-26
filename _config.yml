@@ -172,4 +172,4 @@ jekyll-archives:
     category: /categories/:name/
 
 # Math equation
- markdown: kramdown
+markdown: kramdown
