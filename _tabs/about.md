@@ -1,8 +1,8 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 4
-use_math: True
+order: 5
+math: True
 ---
 
 ## Blog introduction
