@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[Multiple View Geometry in Computer Vision] 0. Foreword, Preface"
 date: 2022-02-07
 categories: [전공서적 리딩, Multiple View Geometry in Computer Vision]
