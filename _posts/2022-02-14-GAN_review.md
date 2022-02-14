@@ -8,7 +8,7 @@ math: true
 published: true
 ---
 
-GAN은 [Generative Adversarial Nets]((https://arxiv.org/pdf/1406.2661.pdf))에서 처음 소개된 아키텍쳐이다. GAN은 딥러닝 기반 생성 모델에 매우 큰 영향을 미쳤으며, 오늘날까지 GAN을 기반으로 한 다양한 파생 모델이 등장하고 있다. 이번 포스팅에서는 GAN에 대하여 간단히 정리해 보았다.
+GAN은 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)에서 처음 소개된 아키텍쳐이다. GAN은 딥러닝 기반 생성 모델에 매우 큰 영향을 미쳤으며, 오늘날까지 GAN을 기반으로 한 다양한 파생 모델이 등장하고 있다. 이번 포스팅에서는 GAN에 대하여 간단히 정리해 보았다.
 
 >*본 포스팅은 다음 자료를 참고하였습니다.*  
 * [GAN: Generative Adversarial Networks (꼼꼼한 딥러닝 논문 리뷰와 코드 실습)](https://www.youtube.com/watch?v=AVvlDmhHgC4)
