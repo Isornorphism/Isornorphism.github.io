@@ -2,6 +2,7 @@
 layout: post
 title: "[GAN] Generative Adversarial Nets 논문 리뷰"
 date: 2022-02-14
+last_modified_at: 2022-02-14
 categories: [AI/ML/DL, GAN]
 tags: [gan, generative model, generator, discriminator, kld, jsd]
 math: true
@@ -55,7 +56,7 @@ $$\min_{G} \max_{D} V(G, D) = \mathbb{E}_{x \sim p_{data}(x)} [\log D(x)] + \mat
 크게 2가지를 보일 것이다. 첫 번째는 generator $G$가 만드는 확률 분포가 데이터의 확률 분포에 수렴한다는 점이고, 두 번째는 $D(G(z))=1/2$, 다시 말해 $G$가 만드는 fake data와 real data를 $D$가 구분할 수 없는 방향으로 수렴한다는 점이다.
 
 
-### **Proposition 1.**주어진 $G$에 대해, 최적 discriminator $D$는 $D_{G}^{*}(x) = \frac {p_{data}(x)} {p_{data}(x) + p_g (x)}$이다.
+### **Proposition 1.** 주어진 $G$에 대해, 최적 discriminator $D$는 $D_{G}^{*}(x) = \frac {p_{data}(x)} {p_{data}(x) + p_g (x)}$이다.
 $Proof.$  
 
 $$\begin{align}
