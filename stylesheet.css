@@ -1,0 +1,207 @@
+/* Lato, matching the typography of the original academic website template. */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"),
+       url("https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"),
+       url("https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"),
+       url("https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2") format("woff2");
+}
+
+:root {
+  color: #222;
+  background: #fff;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.page {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px 24px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text {
+  flex: 0 1 63%;
+  padding: 2.5%;
+}
+
+h1 {
+  margin: 0 0 26px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.intro p {
+  margin: 0 0 16px;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 8px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.profile-photo {
+  flex: 0 1 37%;
+  max-width: 37%;
+  padding: 2.5%;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-section > h2 {
+  margin: 10px 0 20px;
+  padding: 10px 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.research-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.research-image {
+  flex: 0 0 25%;
+  padding-right: 16px;
+}
+
+.research-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.research-details h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.research-details p {
+  margin: 0 0 4px;
+}
+
+.paper-links {
+  margin-top: 5px;
+}
+
+.todo {
+  color: #666;
+  font-style: italic;
+}
+
+footer {
+  margin-top: 8px;
+  padding-top: 16px;
+  text-align: right;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 18px 20px;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-text {
+    width: 100%;
+    padding: 28px 0 12px;
+  }
+
+  h1 {
+    margin-bottom: 22px;
+  }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 320px;
+    padding: 8px 0 22px;
+  }
+
+  .research-section > h2 {
+    margin-top: 8px;
+  }
+
+  .research-item {
+    flex-direction: column;
+  }
+
+  .research-image,
+  .research-details {
+    width: 100%;
+  }
+
+  .research-image {
+    max-width: 360px;
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+}
