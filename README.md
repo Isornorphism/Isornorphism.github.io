@@ -9,7 +9,7 @@ The layout is based on [Jon Barron's academic website design](https://github.com
 The homepage uses the following local images:
 
 - `images/gh_profile.jpg`
-- `images/calousel_teaser.gif`
+- `images/calousel_teaser.webp`
 - `images/glio_teaser.jpg`
 - `images/unc_medirl_teaser.png`
 
